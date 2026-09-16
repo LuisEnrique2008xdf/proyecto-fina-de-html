@@ -76,3 +76,20 @@ button {
     padding: 20px;
     color: white;
 }
+
+@media (max-width: 768px) {
+
+    .contnedor {
+        flex-direction: column;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .contnedor img {
+        width: 220px;
+        height: 220px;
+    }
+
+}
