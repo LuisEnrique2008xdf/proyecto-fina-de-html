@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #dcdfce;
+}
+/* parte del encabezado */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+    background-color: white;
+    border-bottom: 2px solid #1f2937;
+}
+
+.logo h2 {
+    color: #000;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00e5ff;
+}
+
+
+/* parte de la section principal */
+
+.contenedorr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoo {
+    width: 70%;
+    padding: 20px;
+    color: #000;
+}
+
+.textoo h1 {
+    font-size: 55px;
+}
+
+.contenedorr img {
+    width: 500px;
+    height: 500px;
+    padding: 28px;
+}
+
+.btn {
+    background-color: #5662ed;
+    color: white;
+}
+
+.servicios {
+    display: flex;
+    gap: 20px;
+    padding: 30px 8%;
+    background-color: white;
+}
+
+.producto {
+    width: 33%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    padding: 10px;
+    color: #3ddae6;
+}
+
+.producto p {
+    padding: 0 10px 15px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 8%;
+    background-color: #7cb9c0;
+    color: white;
+}
+
+.footer-info {
+    width: 45%;
+}
+
+.footer-contacto {
+    width: 25%;
+}
+
+.footer-redes {
+    width: 20%;
+}
+
+.footer-redes a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer > p {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+    header,
+    .contenedorr,
+    .servicios,
+    footer {
+        flex-direction: column;
+    }
+
+    .textoo,
+    .contenedorr img,
+    .producto {
+        width: 100%;
+    }
+
+    .textoo h1 {
+        font-size: 35px;
+    }
+}
