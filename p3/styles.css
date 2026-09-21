@@ -109,9 +109,23 @@ footer {
 }
 
 @media(max-width: 600px){
+    header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
     nav{
-        gap: 1opx;
+        gap: 15px;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .historia h2{
+        font-size: 30px;
+        top: 130px;
+    }
+    .historia button{
+        top: 200px;
+        left: 50%;
     }
     .articulos{
         flex-direction: column;
@@ -119,4 +133,5 @@ footer {
     .tarjeta{
         width: 100%;
     }
+    
 }
