@@ -68,6 +68,10 @@ nav a:hover {
 .btn {
     background-color: #5662ed;
     color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
 }
 
 .servicios {
