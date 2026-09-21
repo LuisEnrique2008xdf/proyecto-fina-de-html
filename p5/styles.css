@@ -6,8 +6,9 @@
 header{
     color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(131, 145, 145);
+    background-color: rgb(136, 180, 180);
     padding: 20px 20px;
+    border-radius: 12px;
 }
 h1{
     font-size: 40px;
@@ -29,6 +30,21 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: antiquewhite;
+    background-color: rgb(151, 148, 144);
     padding: 14px;
 }
+nav a{
+    background-color: black;
+    padding: 9px 30px;
+    color: white;
+    border-radius: 12px;
+}
+#acerca{
+    display: flex;
+    flex-direction: column;
+}
+#acerca img{
+    width: 100%;
+    height: 500px;
+}
+
